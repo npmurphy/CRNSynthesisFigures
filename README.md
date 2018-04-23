@@ -79,3 +79,4 @@ The files used are
 `matlab Matlab/z3_am_time.m`
 
 # Figure 6
+`matlab Matlab/CMECalcEfficiency/cme_am_time.m`

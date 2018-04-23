@@ -1,0 +1,14 @@
+directive sample 0.1 500
+directive parameters [X0 = 1200.0; Y0 = 800.0]
+directive simulation cme//directive parameters [X0 = 6.0; Y0 = 4.0]
+//directive sample 100.0 500
+//directive simulation cme
+
+rate k = 1.0;
+
+init X X0 |
+init Y Y0 |
+
+X + Y ->{k} 2B |
+B + X ->{k} 2X |
+B + Y ->{k} 2Y
