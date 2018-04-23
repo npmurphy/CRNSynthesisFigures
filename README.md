@@ -61,3 +61,21 @@ Uncomment the appropriate directroy in lines 8 to 13.
 
 # Figure 4
 `matlab Matlab/run_separatrix.m`
+
+# Figure 5
+## Data
+This data format is as follows
+* First column is the CRN number
+* Second column is $K + 1$ where the CRN was found
+* Third column is the time in seconds it was found at.
+
+The files used are 
+* `paper/AMno11_z3_timmings/ApproximateMajorityNo11_3_3.tsv`
+* `paper/AMno11_z3_timmings/ApproximateMajorityNo11_4_4.tsv`
+* `paper/AMno11_z3_timmings/ApproximateMajorityNo11_4_3.tsv`
+* `paper/AMno11_z3_timmings/ApproximateMajorityNo11_3_4.tsv`
+
+## Code
+`matlab Matlab/z3_am_time.m`
+
+# Figure 6
