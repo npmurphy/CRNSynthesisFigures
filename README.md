@@ -1,5 +1,13 @@
+# Dependencies 
+### Python
+Used the following versions.
+* Python 3.6
+* Pandas 0.20.3
+* Matplotlib 2.2.2 
+### Matlab 
+* Matlab > 2015
 
-# Data type explainations
+# Data type explanations
 ## Summary files (`summary_*.tsv`)
 The columns are as follows:
 * `CRN`	the CRN number.
