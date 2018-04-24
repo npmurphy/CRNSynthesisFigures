@@ -8,7 +8,6 @@ saving = 1;   % Set to 1 to write PDF output
 %datadir = '../paper/AMno11_S4_R4/'; withtime = 1;
 datadir = '../paper/AMno11_S3_R3/'; withtime = 1;
 %datadir = '../paper/DivNsel_S4_R4/'; withtime = 0;
-%datadir = '../paper/DivNsel_S4_R5/'; withtime = 0;
 %datadir = '../paper/DivNsel_S5_R4/'; withtime = 0;
 %datadir = '../paper/DivNsel_leader/'; withtime = 0;
 

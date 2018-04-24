@@ -98,7 +98,7 @@ Showing how CME calculations scale with species numbers.
 The data for this figure is stored in 
 * `Matlab/CMECalcEfficiency/times1.mat`
 ## Code
-`matlab Matlab/CMECalcEfficiency/cme_am_time.m`
+* `matlab Matlab/CMECalcEfficiency/cme_am_time.m`
 
 # Figure 7
 Maximum 4 species 3 reactions, pre and post optimisation histograms.
@@ -136,3 +136,22 @@ These are the results of optimising all the Division CRNs.
 
 ## Code
 * `python paper/fig_div/fig_div_sumary.py` 
+
+# Figure 10
+Selected heatmaps to display division CRN behaviour. 
+
+## Data
+The heat maps and CRNs selected for accuracy heatmap. 
+* `DivNsel_S4_R4/Bimol_61586.tsv` Heatmap
+* `DivNsel_S4_R4/Bimol_61586.lbs` CRN code
+* `DivNsel_S4_R4/Bimol_79523.tsv`
+* `DivNsel_S4_R4/Bimol_79523.lbs`
+* `DivNsel_S5_R4/Bimol_751168.tsv`
+* `DivNsel_S5_R4/Bimol_751168.lbs`
+* `DivNsel_leader/Bimol_2.tsv`
+* `DivNsel_leader/Bimol_2.lbs`
+
+## Code
+Uncomment the appropriate directory in lines 8 to 13.
+
+* `matlab Matlab/create_heatmaps.m`
