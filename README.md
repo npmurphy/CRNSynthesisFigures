@@ -7,6 +7,10 @@ Used the following versions.
 ### Matlab 
 * Matlab > 2015
 
+The following scripts should be present in the Matlab path. 
+* Legendflex package from `https://github.com/kakearney/legendflex-pkg`
+* Save2PDF from `https://uk.mathworks.com/matlabcentral/fileexchange/16179-save2pdf`
+
 # Data type explanations
 ## Summary files (`summary_*.tsv`)
 The columns are as follows:
