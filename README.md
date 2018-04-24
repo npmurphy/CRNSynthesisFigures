@@ -119,5 +119,20 @@ Maximum 4 species 3 reactions, Example speed/accuracy trade off figure.
 Figure showing all the Division CRNs and how they score. 
 
 ## Data
+These are the results of optimising all the Division CRNs.
+* `paper/DivNsel_S3_R3/summary.tsv`
+* `paper/DivNsel_S6_R2/summary.tsv`
+* `paper/DivNsel_S3_R5/summary.tsv`
+* `paper/DivNsel_S3_R2/summary.tsv`
+* `paper/DivNsel_S5_R4/summary.tsv`
+* `paper/DivNsel_S4_R5/summary.tsv`
+* `paper/DivNsel_S5_R3/summary.tsv`
+* `paper/DivNsel_S4_R2/summary.tsv`
+* `paper/DivNsel_S4_R3/summary.tsv`
+* `paper/DivNsel_S5_R2/summary.tsv`
+* `paper/DivNsel_S3_R4/summary.tsv`
+* `paper/DivNsel_S6_R3/summary.tsv`
+* `paper/DivNsel_S4_R4/summary.tsv`
 
 ## Code
+* `python paper/fig_div/fig_div_sumary.py` 
