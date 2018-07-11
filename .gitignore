@@ -97,6 +97,13 @@ ENV/
 # mkdocs documentation
 /site
 
+# Matlab
+*.asv
+
 # mypy
 .mypy_cache/
 .vscode/settings.json
+
+# PDF and PNGs
+*.pdf
+*.png
