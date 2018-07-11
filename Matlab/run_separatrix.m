@@ -2,7 +2,7 @@
 
 clear
 close all
-%warning off
+warning off
 
 % Define constants
 N = 10;
