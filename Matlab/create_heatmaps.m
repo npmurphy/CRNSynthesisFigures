@@ -98,14 +98,21 @@ for f = 1:Nf
   
   % Time calculations?
   tfile = strrep(files(f).name,'.tsv','.time');
+  locate_index = @(list,str) find(1-cellfun('isempty',strfind(list,str)));
   if (exist([datadir tfile], 'file') && withtime)
-    %timeIn = dlmread([datadir tfile],'\t', 1, 0);
-    timeIn =  bioma.data.DataMatrix('File', [datadir tfile], 'Delimiter', '\t');
-    n = timeIn(:,'i0') + timeIn(:,'i1'); % multiply by N to compare with complexity measure 
+    [ht,timeIn] = importTSV([datadir tfile]);
+    
+    i0 = locate_index(ht,'i0');
+    i1 = locate_index(ht,'i1');
+    opt_time = locate_index(ht,'opt_time');
+    one_time = locate_index(ht,'one_time');
+    
+    n = timeIn(:,i0) + timeIn(:,i1); % multiply by N to compare with complexity measure 
+    
     subplot('position',[left+2*dx+0.08 bottom width height])
-    loglog(n,n.*timeIn(:,'opt_time'),'kx')
+    loglog(n,n.*timeIn(:,opt_time),'kx')
     hold on
-    loglog(n,n.*timeIn(:,'one_time'),'ko','MarkerFaceColor','k','MarkerSize',3)
+    loglog(n,n.*timeIn(:,one_time),'ko','MarkerFaceColor','k','MarkerSize',3)
     %set(gca,'YMinorTick','on'); % didnt work, want more ticks on y axis. 
     demo_lin = logspace(1,4,100);
     loglog(demo_lin, demo_lin)
