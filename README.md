@@ -168,3 +168,12 @@ The heat maps and CRNs selected for accuracy heatmap.
 Uncomment the appropriate directory in lines 8 to 13.
 
 * `matlab Matlab/create_heatmaps.m`
+
+
+# CRN Storage
+
+All CRNs shown in the paper are stored in a compressed format in the `Storage` directory. To decompress all CRNs of a particular specification, you can call (for example)
+
+`python python/lbs_storage.py --crn_storage_file Storage\AMno11_S3_R3_CRNs.tsv -d AMno11_S3_R3 -r all`
+
+Alternatively, you can choose to decompress a single CRN by using its integer identifier as the argument for `r`.
