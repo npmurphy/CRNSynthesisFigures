@@ -125,6 +125,7 @@ Maximum 4 species 3 reactions, Example speed/accuracy trade off figure.
 ### Data
 * `paper/maximum_out_S4_R3/Bimol_1.speedtime` - Speed-accuracy trade off data
 * `paper/maximum_out_S4_R3/Bimol_1.lbs` - CRN file used
+*  paper/maximum_out_S4_R3/Bimol_1_tf10000.tsv - heatmap file 
 ### Code
 * `python paper/fig_max_speed_ac/fig_max_histo.py`
 
